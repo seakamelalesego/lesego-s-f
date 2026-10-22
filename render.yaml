@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: lesego-fast-food-site
+    runtime: static
+    buildCommand: echo "Static site - no build step required"
+    staticPublishPath: .

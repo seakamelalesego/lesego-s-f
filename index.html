@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lesego's Fast Food serves fresh burgers, wraps, fries, and family meals in a warm, welcoming setting."
+    />
+    <title>Lesego's Fast Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home" aria-label="Lesego's Fast Food home">
+          <span class="brand-mark">L</span>
+          <span>Lesego's Fast Food</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav id="site-nav" class="main-nav" aria-label="Main menu">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#visit">Visit</a>
+          <a class="button-link" href="#order">Order Now</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Fresh • Fast • Friendly</p>
+            <h1>Big flavor, quick service, and comfort food you can count on.</h1>
+            <p class="hero-text">
+              From juicy burgers to golden fries and crowd-pleasing meal deals, Lesego's Fast Food brings restaurant-quality taste to every bite.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#order">Order Now</a>
+              <a class="button secondary" href="#menu">See Menu</a>
+            </div>
+            <ul class="hero-points" aria-label="Restaurant highlights">
+              <li>Fresh ingredients</li>
+              <li>Fast delivery</li>
+              <li>Family meals</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Featured food platter">
+            <div class="image-card">
+              <img
+                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80"
+                alt="A gourmet burger and fries platter"
+              />
+            </div>
+            <div class="floating-badge badge-top">
+              <strong>4.9/5</strong>
+              <span>Customer favorite</span>
+            </div>
+            <div class="floating-badge badge-bottom">
+              <strong>15 min</strong>
+              <span>Quick service</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-strip" aria-label="Restaurant features">
+        <div class="container feature-grid">
+          <article>
+            <h2>Ready in minutes</h2>
+            <p>Fast service for busy lunch breaks, quick dinners, and late-night cravings.</p>
+          </article>
+          <article>
+            <h2>Made fresh</h2>
+            <p>Handcrafted meals with ingredients prepared daily for great taste and quality.</p>
+          </article>
+          <article>
+            <h2>Local favorites</h2>
+            <p>Comfort food that keeps customers coming back for more.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="menu" class="menu-section">
+        <div class="container">
+          <div class="section-heading menu-heading">
+            <p class="eyebrow">Our menu</p>
+            <h2>Menu &amp; Prices</h2>
+            <p class="menu-intro">Fresh meals, fast service, and value-packed prices for every craving.</p>
+          </div>
+
+          <div class="menu-grid" aria-label="Food menu items">
+            <article class="menu-item">
+              <img
+                src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80"
+                alt="Classic beef burger with lettuce and tomato"
+              />
+              <div class="item-copy">
+                <div class="item-header">
+                  <h3>Signature Burger</h3>
+                  <span class="price">R95</span>
+                </div>
+                <p>Juicy beef patty, cheddar, lettuce, tomato, and smoky sauce on a toasted brioche bun.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <img
+                src="https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=800&q=80"
+                alt="Crispy chicken wrap with vegetables"
+              />
+              <div class="item-copy">
+                <div class="item-header">
+                  <h3>Crispy Chicken Wrap</h3>
+                  <span class="price">R78</span>
+                </div>
+                <p>Crunchy chicken, slaw, and a creamy garlic sauce wrapped in a soft tortilla.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <img
+                src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&w=800&q=80"
+                alt="Loaded fries with cheese and toppings"
+              />
+              <div class="item-copy">
+                <div class="item-header">
+                  <h3>Loaded Fries</h3>
+                  <span class="price">R62</span>
+                </div>
+                <p>Golden fries topped with cheese sauce, crispy onions, and a sprinkle of herbs.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <img
+                src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+                alt="Family meal with assorted burgers and fries"
+              />
+              <div class="item-copy">
+                <div class="item-header">
+                  <h3>Family Feast</h3>
+                  <span class="price">R290</span>
+                </div>
+                <p>A shareable combo with burgers, fries, nuggets, and drinks for the whole table.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <img
+                src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=800&q=80"
+                alt="Veggie burger and salad"
+              />
+              <div class="item-copy">
+                <div class="item-header">
+                  <h3>Veggie Delight</h3>
+                  <span class="price">R88</span>
+                </div>
+                <p>Plant-based patty with avocado, tomato, spinach, and a zesty herb dressing.</p>
+              </div>
+            </article>
+
+            <article class="menu-item">
+              <img
+                src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80"
+                alt="Chocolate dessert with ice cream"
+              />
+              <div class="item-copy">
+                <div class="item-header">
+                  <h3>Sweet Finish</h3>
+                  <span class="price">R45</span>
+                </div>
+                <p>Warm chocolate dessert with vanilla ice cream for a satisfying ending.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-section">
+        <div class="container about-grid">
+          <div class="about-copy">
+            <p class="eyebrow">Why us</p>
+            <h2>Comfort food made with care and a little extra flavor.</h2>
+            <p>
+              At Lesego's Fast Food, we blend quick service with generous portions and consistently fresh ingredients. Whether you are grabbing lunch on the go or enjoying a family dinner at home, we make every meal feel special.
+            </p>
+            <ul class="check-list">
+              <li>Locally inspired flavor combinations</li>
+              <li>Freshly prepared meals every day</li>
+              <li>Friendly service and family-friendly pricing</li>
+            </ul>
+          </div>
+          <div class="about-image">
+            <img
+              src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1100&q=80"
+              alt="Restaurant interior with customers enjoying food"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="order" class="cta-banner">
+        <div class="container cta-inner">
+          <div>
+            <p class="eyebrow">Ready to eat?</p>
+            <h2>Bring the flavor home today.</h2>
+          </div>
+          <a class="button primary" href="#visit">Order Now</a>
+        </div>
+      </section>
+
+      <section id="visit" class="visit-section">
+        <div class="container visit-grid">
+          <div class="info-panel">
+            <p class="eyebrow">Visit us</p>
+            <h2>Hours, location, and contact</h2>
+            <div class="info-list">
+              <div>
+                <span class="label">Address</span>
+                <p>27838 Mlambo Street, Mamelodi East, Pretoria, South Africa</p>
+              </div>
+              <div>
+                <span class="label">Phone</span>
+                <p>067 676 8951</p>
+              </div>
+              <div>
+                <span class="label">Email</span>
+                <p>hello@lesegosfastfood.co.za</p>
+              </div>
+              <div>
+                <span class="label">Opening hours</span>
+                <p>Mon–Sun: 10:00 AM – 10:00 PM</p>
+              </div>
+            </div>
+            <div class="visit-actions">
+              <a class="button primary" href="tel:+27676768951">Call Us</a>
+              <a class="button secondary" href="https://maps.google.com/?q=27838+Mlambo+Street+Mamelodi+East+Pretoria" target="_blank" rel="noreferrer">Get Directions</a>
+            </div>
+            </div>
+          </div>
+
+          <div class="map-card" aria-label="Restaurant location">
+            <div class="map-placeholder">
+              <span>Map area</span>
+              <strong>Pretoria, Mamelodi East</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Lesego's Fast Food. Fresh flavor, served fast.</p>
+        <a href="#home">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
